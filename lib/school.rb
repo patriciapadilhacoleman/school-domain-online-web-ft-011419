@@ -11,10 +11,10 @@ class School
     
   end
   
-  def add_student(name, age)
+  def add_student(name, grade)
     
     @roster[name]=[]
-    @roster[name]<<age
+    @roster[name]<< grade
     
   end
   
