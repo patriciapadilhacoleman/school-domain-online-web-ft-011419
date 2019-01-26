@@ -22,10 +22,10 @@ class School
   
   def grade(grade)
     
-    list = {}
     
-    list = @roster.select{|k,v| k == grade}
-    return 
+    
+     @roster.select{|k,v| k == grade}.values
+     
     
   end
   
