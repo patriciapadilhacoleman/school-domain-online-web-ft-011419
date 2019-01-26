@@ -25,7 +25,7 @@ class School
     
     
     # @roster.select{|k,v| k == grade}
-     @roster.values_at
+     @roster.values_at(grade)
      
     
   end
