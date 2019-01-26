@@ -11,6 +11,8 @@ class School
     
   end
   
-  def 
+  def add_student(name, age)
+    
+  end
   
 end
