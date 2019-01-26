@@ -20,4 +20,10 @@ class School
     
   end
   
+  def grade(grade)
+    
+    @roster
+    
+  end
+  
 end
