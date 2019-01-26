@@ -22,7 +22,7 @@ class School
   
   def grade(grade)
     
-     return @roster.values_at(grade)
+     @roster.values_at(grade)
      
     
   end
