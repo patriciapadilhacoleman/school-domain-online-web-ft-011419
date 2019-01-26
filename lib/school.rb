@@ -29,6 +29,8 @@ class School
   
   def sort
     
+    temproster = {}
+    
     @roster.each_value{|students| students.sort}
   
   end
