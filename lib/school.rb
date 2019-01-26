@@ -24,7 +24,7 @@ class School
     
     
     
-     @roster.select{|k,v| k == grade}.values
+     @roster.select{|k,v| k == grade}
      
     
   end
