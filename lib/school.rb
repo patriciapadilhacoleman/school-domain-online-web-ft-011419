@@ -31,7 +31,14 @@ class School
     
     temproster = {}
     
-    @roster.each_value{|students| students.sort}
+    @roster.each do |grade, students| 
+      
+      temproster[grade] =[]
+      temproster[grade]<< students.sort
+    
+    end
+    
+    @roster = temproster
   
   end
   
