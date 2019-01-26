@@ -22,7 +22,7 @@ class School
   
   def grade(grade)
     
-    @roster.select{
+    @roster.select{|k,v|
     
   end
   
