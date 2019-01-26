@@ -34,7 +34,7 @@ class School
     @roster.each do |grade, students| 
       
       temproster[grade] =[]
-      temproster[grade] << students.flatten.sort
+      temproster[grade] = students.sort
     
     end
     
